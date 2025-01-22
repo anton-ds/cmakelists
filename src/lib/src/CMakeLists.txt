@@ -1,0 +1,1 @@
+add_library(${LIBRARY_NAME} STATIC "lib.cc")
