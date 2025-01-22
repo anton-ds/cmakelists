@@ -1,4 +1,4 @@
-### 📌 Final Table of Library Types in CMake
+### 📌 Table of Library Types in CMake
 
 ```cmake
 add_library(${LIBRARY_NAME} src/lib/src/lib.cc <TYPE>)
