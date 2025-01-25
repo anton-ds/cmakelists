@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../src/lib/inc/lib.h"
+#include "lib.h"
 
 int main()
 {
