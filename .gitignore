@@ -1,3 +1,4 @@
+.gitmodules
 .idea/
 cmake-build-debug/
 external/
