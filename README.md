@@ -4,7 +4,7 @@
 git submodule add https://github.com/nlohmann/json external/json
 ```
 
-### 📌 Table of Library Types in CMake
+### Table of Library Types in CMake
 
 ```cmake
 add_library(${LIBRARY_NAME} src/lib/src/lib.cc <TYPE>)
@@ -21,7 +21,7 @@ add_library(${LIBRARY_NAME} src/lib/src/lib.cc <TYPE>)
 | **IMPORTED**  | Uses an existing installed `.so/.dll` | Works with system libraries | OpenGL, FMOD, Vulkan |
 | **EXCLUDE_FROM_ALL**  | Excluded from the default build process | Optional libraries, unit tests | Unit tests |
 
-### 📌 Remark about Libraries
+### Remark about Libraries
 
 - If code rarely changes and is needed in .exe → Use .a / .lib (static library).
 - If you need to update it separately or use it in several programs → Use .so / .dll (dynamic library).
