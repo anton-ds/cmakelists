@@ -1,3 +1,9 @@
+### Install
+
+```
+git submodule add https://github.com/nlohmann/json external/json
+```
+
 ### 📌 Table of Library Types in CMake
 
 ```cmake
