@@ -2,6 +2,10 @@
 
 ```
 git submodule add https://github.com/nlohmann/json external/json
+rm -rf ./cmake-build-debug
+cmake -S . -B ./cmake-build-debug
+cmake --build ./cmake-build-debug
+./cmake-build-debug/app/Executable
 ```
 
 ### Table of Library Types in CMake
